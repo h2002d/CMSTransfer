@@ -1,0 +1,13 @@
+C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache
+D:\Projects\CMSTransfer\VendorCMS\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\Projects\CMSTransfer\VendorCMS\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\Projects\CMSTransfer\VendorCMS\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\Projects\CMSTransfer\VendorCMS\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache
+D:\Projects\CMSTransfer\VendorCMS\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\Projects\CMSTransfer\VendorCMS\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\Projects\CMSTransfer\VendorCMS\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

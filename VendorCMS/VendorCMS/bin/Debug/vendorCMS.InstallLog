@@ -1,0 +1,1125 @@
+﻿Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe assembly.
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe assembly.
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Rolling back assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Restoring event log to previous state for source Service1.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Restoring event log to previous state for source Service1.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Rolling back assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+An exception occurred during the Rollback phase of the System.ServiceProcess.ServiceProcessInstaller installer.
+System.NullReferenceException: Object reference not set to an instance of an object.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Rolling back assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Removing EventLog source My Test Service.
+Warning: The source My Test Service is not registered on the local machine.
+Service My Test Service is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Installing service My Test Service...
+Creating EventLog source My Test Service in log Application...
+Rolling back assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Restoring event log to previous state for source My Test Service.
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Installing service My Test Service...
+Creating EventLog source My Test Service in log Application...
+Rolling back assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Restoring event log to previous state for source My Test Service.
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Removing EventLog source My Test Service.
+Warning: The source My Test Service is not registered on the local machine.
+Service My Test Service is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorCMS.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Creating EventLog source My Test Service in log Application...
+Rolling back assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Restoring event log to previous state for source My Test Service.
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Warning: The source My Test Service is not registered on the local machine.
+Service My Test Service is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Warning: The source My Test Service is not registered on the local machine.
+Service My Test Service is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Warning: The source My Test Service is not registered on the local machine.
+Service My Test Service is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Warning: The source My Test Service is not registered on the local machine.
+Service My Test Service is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Creating EventLog source My Test Service in log Application...
+Rolling back assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Restoring event log to previous state for source My Test Service.
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Creating EventLog source My Test Service in log Application...
+Rolling back assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Restoring event log to previous state for source My Test Service.
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Warning: The source My Test Service is not registered on the local machine.
+Service My Test Service is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Warning: The source My Test Service is not registered on the local machine.
+Service My Test Service is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Warning: The source My Test Service is not registered on the local machine.
+Service My Test Service is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Creating EventLog source My Test Service in log Application...
+Rolling back assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Restoring event log to previous state for source My Test Service.
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Warning: The source My Test Service is not registered on the local machine.
+Service My Test Service is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Creating EventLog source My Test Service in log Application...
+Rolling back assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Restoring event log to previous state for source My Test Service.
+Uninstalling assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Warning: The source My Test Service is not registered on the local machine.
+Service My Test Service is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing assembly 'D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Creating EventLog source My Test Service in log Application...
+Rolling back assembly 'D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Restoring event log to previous state for source My Test Service.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Uninstalling assembly 'D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Service My Test Service is being removed from the system...
+Service My Test Service was successfully removed from the system.
+Installing assembly 'D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Creating EventLog source My Test Service in log Application...
+Rolling back assembly 'D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Restoring event log to previous state for source My Test Service.
+Uninstalling assembly 'D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Removing EventLog source My Test Service.
+Warning: The source My Test Service is not registered on the local machine.
+Service My Test Service is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe
+Installing service My Test Service...
+Service My Test Service has been successfully installed.
+Creating EventLog source My Test Service in log Application...
+Committing assembly 'D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.InstallLog
+   assemblypath = D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\vendorcms.exe

@@ -1,0 +1,20 @@
+c:\users\davit\documents\visual studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\VendorCMS.exe
+c:\users\davit\documents\visual studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\VendorCMS.exe.config
+c:\users\davit\documents\visual studio 2017\Projects\VendorCMS\VendorCMS\obj\Debug\VendorCMS.ProjectInstaller.resources
+c:\users\davit\documents\visual studio 2017\Projects\VendorCMS\VendorCMS\obj\Debug\VendorCMS.csproj.GenerateResource.Cache
+c:\users\davit\documents\visual studio 2017\Projects\VendorCMS\VendorCMS\obj\Debug\VendorCMS.exe
+c:\users\davit\documents\visual studio 2017\Projects\VendorCMS\VendorCMS\obj\Debug\VendorCMS.pdb
+c:\users\davit\documents\visual studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\VendorCMS.pdb
+C:\Users\davit\documents\visual studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\davit\documents\visual studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\Newtonsoft.Json.xml
+C:\Users\davit\Documents\Visual Studio 2017\Projects\VendorCMS\VendorCMS\bin\Debug\System.Web.Helpers.dll
+D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\VendorCMS.exe.config
+D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\VendorCMS.exe
+D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\VendorCMS.pdb
+D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\CMSTransfer\VendorCMS\VendorCMS\obj\Debug\VendorCMS.ProjectInstaller.resources
+D:\Projects\CMSTransfer\VendorCMS\VendorCMS\obj\Debug\VendorCMS.csproj.GenerateResource.Cache
+D:\Projects\CMSTransfer\VendorCMS\VendorCMS\obj\Debug\VendorCMS.csproj.CoreCompileInputs.cache
+D:\Projects\CMSTransfer\VendorCMS\VendorCMS\obj\Debug\VendorCMS.exe
+D:\Projects\CMSTransfer\VendorCMS\VendorCMS\obj\Debug\VendorCMS.pdb

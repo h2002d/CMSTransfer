@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendorCMS", "VendorCMS\VendorCMS.csproj", "{97AF60D1-528C-496B-AECD-85AD8B7D0D84}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SeRviceInstaller", "SeRviceInstaller\SeRviceInstaller.vdproj", "{954574D7-7869-46D0-8FF1-C41536D49873}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{79FF4D5D-B712-40B7-BC02-C192B7C39C05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97AF60D1-528C-496B-AECD-85AD8B7D0D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97AF60D1-528C-496B-AECD-85AD8B7D0D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97AF60D1-528C-496B-AECD-85AD8B7D0D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97AF60D1-528C-496B-AECD-85AD8B7D0D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{954574D7-7869-46D0-8FF1-C41536D49873}.Debug|Any CPU.ActiveCfg = Debug
+		{954574D7-7869-46D0-8FF1-C41536D49873}.Release|Any CPU.ActiveCfg = Release
+		{79FF4D5D-B712-40B7-BC02-C192B7C39C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79FF4D5D-B712-40B7-BC02-C192B7C39C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79FF4D5D-B712-40B7-BC02-C192B7C39C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79FF4D5D-B712-40B7-BC02-C192B7C39C05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
