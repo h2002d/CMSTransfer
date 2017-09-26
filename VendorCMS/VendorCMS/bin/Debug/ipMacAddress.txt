@@ -1,0 +1,1 @@
+ "netInfo":[{"MacAddress":"7C0507FED49C","IpAddress":"fe80::e165:d61b:ff3a:617f%7;fe80::3c2c:2830:3f57:76a7%8;192.168.137.88;2001:0:9d38:6abd:3c2c:2830:3f57:76a7;"}],

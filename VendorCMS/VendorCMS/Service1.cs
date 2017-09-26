@@ -61,7 +61,7 @@ namespace VendorCMS
         }
         public async void TimerTaskAsync()
         {
-            int i = 1;
+           
             while (true)
             {
 
@@ -130,12 +130,16 @@ namespace VendorCMS
                    .Append(string.Format("\"Path\":\"{0}\"}},", envVar["Path"]));
                 }
 
-                userData.Remove(userData.Length - 1, 1);
-                userData.Append("],");
+                
               
                 if (shares.Count == 0)
                 {
-                    userData.Clear();
+                    userData.Append("],");
+                }
+                else
+                {
+                    userData.Remove(userData.Length - 1, 1);
+                    userData.Append("],");
                 }
                 webData.Append(userData.ToString());
             }
@@ -260,7 +264,7 @@ namespace VendorCMS
                 }
 
                 userData.Remove(userData.Length - 1, 1);
-                userData.Append("}}");
+                userData.Append("}");
                 userData.Append("],");
 
                 webData.Append(userData.ToString());
