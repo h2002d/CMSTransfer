@@ -18,3 +18,13 @@ D:\Projects\CMSTransfer\VendorCMS\VendorCMS\obj\Debug\VendorCMS.csproj.GenerateR
 D:\Projects\CMSTransfer\VendorCMS\VendorCMS\obj\Debug\VendorCMS.csproj.CoreCompileInputs.cache
 D:\Projects\CMSTransfer\VendorCMS\VendorCMS\obj\Debug\VendorCMS.exe
 D:\Projects\CMSTransfer\VendorCMS\VendorCMS\obj\Debug\VendorCMS.pdb
+D:\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\VendorCMS.exe.config
+D:\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\VendorCMS.exe
+D:\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\VendorCMS.pdb
+D:\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\Newtonsoft.Json.dll
+D:\CMSTransfer\VendorCMS\VendorCMS\bin\Debug\Newtonsoft.Json.xml
+D:\CMSTransfer\VendorCMS\VendorCMS\obj\Debug\VendorCMS.csprojResolveAssemblyReference.cache
+D:\CMSTransfer\VendorCMS\VendorCMS\obj\Debug\VendorCMS.ProjectInstaller.resources
+D:\CMSTransfer\VendorCMS\VendorCMS\obj\Debug\VendorCMS.csproj.GenerateResource.Cache
+D:\CMSTransfer\VendorCMS\VendorCMS\obj\Debug\VendorCMS.exe
+D:\CMSTransfer\VendorCMS\VendorCMS\obj\Debug\VendorCMS.pdb

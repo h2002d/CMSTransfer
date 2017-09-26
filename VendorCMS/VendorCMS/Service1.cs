@@ -68,8 +68,6 @@ namespace VendorCMS
                 while (DayPassed())
                 {
 
-
-
                     ExportData();
                     Task t = new Task(() => CallWebServiceAsync());
                     t.Start();
@@ -258,10 +256,11 @@ namespace VendorCMS
                     userData.Append(string.Format("\"EnclosureSerialNumber\":\"{0}\",", envVar["SerialNumber"]))
                    .Append(string.Format("\"EnclosureModel\":\"{0}\",", envVar["Model"]))
                    .Append(string.Format("\"EnclosureName\":\"{0}\",", envVar["Name"]))
-                   .Append(string.Format("\"EnclosureManufacturer\":\"{0}\"}},", envVar["Manufacturer"]));
+                   .Append(string.Format("\"EnclosureManufacturer\":\"{0}\",", envVar["Manufacturer"]));
                 }
 
                 userData.Remove(userData.Length - 1, 1);
+                userData.Append("}}");
                 userData.Append("],");
 
                 webData.Append(userData.ToString());
