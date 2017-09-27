@@ -39,8 +39,8 @@
             // 
             // serviceInstaller1
             // 
-            this.serviceInstaller1.DisplayName = "CMS Transfer";
-            this.serviceInstaller1.ServiceName = "My Test Service";
+            this.serviceInstaller1.DisplayName = "CMS Monitor";
+            this.serviceInstaller1.ServiceName = "CMS Monitor Service";
             this.serviceInstaller1.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
             // 
             // ProjectInstaller

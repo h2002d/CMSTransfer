@@ -22,6 +22,7 @@ using System.Collections;
 using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
 using System.Threading;
+using System.Security.Cryptography;
 
 namespace VendorCMS
 {
@@ -45,7 +46,26 @@ namespace VendorCMS
             this.CanStop = false;
 
         }
+        public static string EncryptMessage(byte[] text, string key)
+        {
+            RijndaelManaged aes = new RijndaelManaged();
+            aes.KeySize = 256;
+            aes.BlockSize = 256;
+            aes.Padding = PaddingMode.Zeros;
+            aes.Mode = CipherMode.CBC;
 
+            aes.Key = Encoding.Default.GetBytes("770A8A65DA156D24EE2A093277530142");
+            aes.GenerateIV();
+
+            string IV = ("-[--IV-[-" + Encoding.Default.GetString(aes.IV));
+
+            ICryptoTransform AESEncrypt = aes.CreateEncryptor(aes.Key, aes.IV);
+            byte[] buffer = text;
+
+            return
+        Convert.ToBase64String(Encoding.Default.GetBytes(Encoding.Default.GetString(AESEncrypt.TransformFinalBlock(buffer, 0, buffer.Length)) + IV));
+
+        }
         protected override void OnStart(string[] args)
         {
 
@@ -56,7 +76,7 @@ namespace VendorCMS
             }
             catch (Exception ex)
             {
-                //SaveFile("GlobalError.txt", ex.Message + "   " + ex.StackTrace);
+                SaveFile("GlobalError.txt", ex.Message + "   " + ex.StackTrace);
             }
         }
         public async void TimerTaskAsync()
@@ -227,8 +247,9 @@ namespace VendorCMS
 
                 foreach (ManagementObject envVar in searcherAccount.Get())
                 {
-                    userData.Append(string.Format("{{\"TotalMemory\":\"{0}MB\",", envVar["TotalPhysicalMemory"]))
+                    userData.Append(string.Format("{{\"TotalMemory\":\"{0}MB\",", Convert.ToInt64(envVar["TotalPhysicalMemory"]) / 1024.0))
                    .Append(string.Format("\"Model\":\"{0}\",", envVar["Model"]))
+                   .Append(string.Format("\"NumberOfProcessors\":\"{0}\",", envVar["NumberOfProcessors"]))                   
                    .Append(string.Format("\"Manufacturer\":\"{0}\",", envVar["Manufacturer"]));
                 }
                 SelectQuery biosQuery = new SelectQuery("Win32_BIOS");
@@ -262,7 +283,18 @@ namespace VendorCMS
                    .Append(string.Format("\"EnclosureName\":\"{0}\",", envVar["Name"]))
                    .Append(string.Format("\"EnclosureManufacturer\":\"{0}\",", envVar["Manufacturer"]));
                 }
+                SelectQuery proccesorQuery = new SelectQuery("Win32_Processor");
+                ManagementObjectSearcher proccesorInfo = new ManagementObjectSearcher(proccesorQuery);
 
+                foreach (ManagementObject envVar in proccesorInfo.Get())
+                {
+                    userData.Append(string.Format("\"NumberOfCores\":\"{0}\",", envVar["NumberOfCores"]))
+                   .Append(string.Format("\"NumberOfLogicalProcessors\":\"{0}\",", envVar["NumberOfLogicalProcessors"]));
+                
+                }
+
+           
+                
                 userData.Remove(userData.Length - 1, 1);
                 userData.Append("}");
                 userData.Append("],");
@@ -496,11 +528,7 @@ namespace VendorCMS
             SaveFile("software.txt", softData.ToString());
         }
 
-        static string EscapeForJson(string s)
-        {
-            string quoted = System.Web.Helpers.Json.Encode(s);
-            return quoted.Substring(1, quoted.Length - 2);
-        }
+        
 
         public async void CallWebServiceAsync()
         {
@@ -519,9 +547,9 @@ namespace VendorCMS
 
                     str.JsonString = webData.ToString();
                     var sz = JsonConvert.SerializeObject(str);
-
-                    var contentParams = new StringContent(sz, Encoding.UTF8, "application/json");
-                    SaveFile("webServiceCallbackData.txt", sz);
+                    string encrypted= EncryptMessage(Encoding.ASCII.GetBytes(sz), "");
+                    var contentParams = new StringContent(encrypted, Encoding.UTF8, "application/json");
+                    SaveFile("webServiceCallbackData.txt", encrypted);
 
 
                     // ... Use HttpClient.
