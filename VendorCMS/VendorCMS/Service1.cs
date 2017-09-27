@@ -49,21 +49,21 @@ namespace VendorCMS
         public static string EncryptMessage(byte[] text, string key)
         {
             RijndaelManaged aes = new RijndaelManaged();
-            aes.KeySize = 256;
-            aes.BlockSize = 256;
+            aes.KeySize = 128;
+            aes.BlockSize = 128;
             aes.Padding = PaddingMode.Zeros;
             aes.Mode = CipherMode.CBC;
 
             aes.Key = Encoding.Default.GetBytes("770A8A65DA156D24EE2A093277530142");
-            aes.GenerateIV();
+            aes.IV = text;
 
-            string IV = ("-[--IV-[-" + Encoding.Default.GetString(aes.IV));
+            string IV = ("-[--IV-[-" + Encoding.Unicode.GetString(aes.IV));
 
             ICryptoTransform AESEncrypt = aes.CreateEncryptor(aes.Key, aes.IV);
             byte[] buffer = text;
 
             return
-        Convert.ToBase64String(Encoding.Default.GetBytes(Encoding.Default.GetString(AESEncrypt.TransformFinalBlock(buffer, 0, buffer.Length)) + IV));
+        Convert.ToBase64String(Encoding.Unicode.GetBytes(Encoding.Unicode.GetString(AESEncrypt.TransformFinalBlock(buffer, 0, buffer.Length)) + IV));
 
         }
         protected override void OnStart(string[] args)

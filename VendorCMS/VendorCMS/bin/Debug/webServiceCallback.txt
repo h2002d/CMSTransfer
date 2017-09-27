@@ -1,2 +1,0 @@
-<br />
-<b>Warning</b>:  openssl_decrypt() expects parameter 4 to be integer, string given in <b>/storage/ssd4/468/2600468/public_html/index.php</b> on line <b>27</b><br />

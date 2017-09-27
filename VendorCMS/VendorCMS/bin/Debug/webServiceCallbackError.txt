@@ -1,0 +1,3 @@
+Заданный вектор инициализации (IV) не соответствует размеру блоков для этого алгоритма.         в System.Security.Cryptography.SymmetricAlgorithm.set_IV(Byte[] value)
+   в VendorCMS.Service1.EncryptMessage(Byte[] text, String key) в D:\Projects\CMSTransfer\VendorCMS\VendorCMS\Service1.cs:строка 58
+   в VendorCMS.Service1.<CallWebServiceAsync>d__28.MoveNext() в D:\Projects\CMSTransfer\VendorCMS\VendorCMS\Service1.cs:строка 550
