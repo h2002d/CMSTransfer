@@ -1,0 +1,4 @@
+Произошла ошибка при отправке запроса.       в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в VendorCMS.Service1.<UpdaterTaskAsync>d__12.MoveNext() в D:\Projects\CMSTransfer\VendorCMS\VendorCMS\Service1.cs:строка 96

@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendorCMS", "VendorCMS\Vend
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SeRviceInstaller", "SeRviceInstaller\SeRviceInstaller.vdproj", "{954574D7-7869-46D0-8FF1-C41536D49873}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{79FF4D5D-B712-40B7-BC02-C192B7C39C05}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Update", "ConsoleApp1\Update.csproj", "{79FF4D5D-B712-40B7-BC02-C192B7C39C05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

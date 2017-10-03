@@ -1,0 +1,7 @@
+D:\Projects\CMSTransfer\VendorCMS\ConsoleApp1\obj\Debug\Update.csproj.CoreCompileInputs.cache
+D:\Projects\CMSTransfer\VendorCMS\ConsoleApp1\bin\Debug\update.exe.config
+D:\Projects\CMSTransfer\VendorCMS\ConsoleApp1\bin\Debug\update.exe
+D:\Projects\CMSTransfer\VendorCMS\ConsoleApp1\bin\Debug\update.pdb
+D:\Projects\CMSTransfer\VendorCMS\ConsoleApp1\obj\Debug\update.exe
+D:\Projects\CMSTransfer\VendorCMS\ConsoleApp1\obj\Debug\update.pdb
+D:\Projects\CMSTransfer\VendorCMS\ConsoleApp1\obj\Debug\Update.csprojResolveAssemblyReference.cache

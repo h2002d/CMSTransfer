@@ -8,37 +8,78 @@ using System.Threading.Tasks;
 using System.DirectoryServices.AccountManagement;
 using System.Collections;
 using System.Security.Cryptography;
+using System.IO;
+using System.Net.Http;
+using System.Configuration;
+using System.IO.Compression;
+using System.Diagnostics;
+using System.ServiceProcess;
 
-namespace ConsoleApp1
+namespace Update
 {
     class Program
     {
+        static string webAddress = ConfigurationManager.AppSettings["webhost"];
+   
+        
+        static string appDirectory = AppDomain.CurrentDomain.BaseDirectory;
+        //async method to download the file
 
+        static async void GetUpdateFile()
+        {
+
+            try
+            {
+                //instance of HTTPClient
+                HttpClient client = new HttpClient();
+
+                HttpResponseMessage responseDownload = await client.GetAsync(webAddress + "\\download.php");
+              
+                // Check that response was successful or throw exception
+                responseDownload.EnsureSuccessStatusCode();
+                // Read response asynchronously and save asynchronously to file
+
+                using (FileStream fileStream = new FileStream(appDirectory+"\\update.zip", FileMode.Create, FileAccess.Write, FileShare.None))
+                {
+                    //copy the content from response to filestream
+                    await responseDownload.Content.CopyToAsync(fileStream);
+                    //UnZipCatalog(fileStream);
+                }
+                using (ZipArchive archive = ZipFile.OpenRead(appDirectory + "\\update.zip"))
+                {
+                    foreach (ZipArchiveEntry entry in archive.Entries)
+                    {
+                        //if (entry.FullName.EndsWith(".exe", StringComparison.OrdinalIgnoreCase)||)
+                        //{
+                            entry.ExtractToFile(Path.Combine(appDirectory, entry.FullName), true);
+                        //}
+                    }
+                }
+              
+                using (ServiceController sc = new ServiceController("CMS Monitor Service"))
+                {
+                    sc.Start();
+                }
+            }
+            catch (HttpRequestException rex)
+            {
+                Console.WriteLine(rex.ToString());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+        }
+
+
+       
         static void Main(string[] args)
         {
-           
-            Console.WriteLine(EncryptMessage(Encoding.ASCII.GetBytes("Hello this is a text that is a text and is larger than expected"),""));
-            Console.ReadKey();
+            GetUpdateFile();
+
+            Console.WriteLine("Hit  enter to exit...");
+            Console.ReadLine();
         }
-        public static string EncryptMessage(byte[] text, string key)
-        {
-            RijndaelManaged aes = new RijndaelManaged();
-            aes.KeySize = 128;
-            aes.BlockSize = 128;
-            aes.Padding = PaddingMode.Zeros;
-            aes.Mode = CipherMode.CBC;
 
-            aes.Key = Encoding.Default.GetBytes("770A8A65DA156D24EE2A093277530142");
-            aes.IV = text;
-
-            string IV = ("-[--IV-[-" + Encoding.Unicode.GetString(aes.IV));
-
-            ICryptoTransform AESEncrypt = aes.CreateEncryptor(aes.Key, aes.IV);
-            byte[] buffer = text;
-
-            return
-        Convert.ToBase64String(Encoding.Unicode.GetBytes(Encoding.Unicode.GetString(AESEncrypt.TransformFinalBlock(buffer, 0, buffer.Length)) + IV));
-
-        }
     }
 }

@@ -23,6 +23,8 @@ using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
 using System.Threading;
 using System.Security.Cryptography;
+using System.Configuration;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace VendorCMS
 {
@@ -30,6 +32,10 @@ namespace VendorCMS
     {
         static bool is64BitProcess = (IntPtr.Size == 8);
         static bool is64BitOperatingSystem = is64BitProcess || InternalCheckIsWow64();
+        private static readonly byte[] SALT = new byte[] { 0x26, 0xdc, 0xff, 0x00, 0xad, 0xed, 0x7a, 0xee, 0xc5, 0xfe, 0x07, 0xaf, 0x4d, 0x08, 0x22, 0x3c };
+        static string webAddress = ConfigurationManager.AppSettings["webhost"];
+        bool isDayPassed=true;
+        static string currentVersion = ConfigurationManager.AppSettings["version"];
 
         [DllImport("kernel32.dll", SetLastError = true, CallingConvention = CallingConvention.Winapi)]
         [return: MarshalAs(UnmanagedType.Bool)]
@@ -39,32 +45,30 @@ namespace VendorCMS
         );
 
         string logsDirectory = AppDomain.CurrentDomain.BaseDirectory;
-        public StringBuilder webData = new StringBuilder(string.Format("{{\"SID\":\"{0}\",", GetComputerSid().Value));
+        public StringBuilder webData;
         public Service1()
         {
             InitializeComponent();
             this.CanStop = false;
 
         }
-        public static string EncryptMessage(byte[] text, string key)
+        public static byte[] Encrypt(byte[] plain, string password)
         {
-            RijndaelManaged aes = new RijndaelManaged();
-            aes.KeySize = 128;
-            aes.BlockSize = 128;
-            aes.Padding = PaddingMode.Zeros;
-            aes.Mode = CipherMode.CBC;
+            MemoryStream memoryStream;
+            CryptoStream cryptoStream;
+            Rijndael rijndael = Rijndael.Create();
+            rijndael.KeySize = 128;
+            rijndael.Padding = PaddingMode.Zeros;
+            rijndael.BlockSize = 128;
+            rijndael.Mode = CipherMode.CBC;
+            Rfc2898DeriveBytes pdb = new Rfc2898DeriveBytes(password, SALT);
+            rijndael.Key = Encoding.UTF8.GetBytes("770A8A65DA156D24EE2A093277530142");
 
-            aes.Key = Encoding.Default.GetBytes("770A8A65DA156D24EE2A093277530142");
-            aes.IV = text;
-
-            string IV = ("-[--IV-[-" + Encoding.Unicode.GetString(aes.IV));
-
-            ICryptoTransform AESEncrypt = aes.CreateEncryptor(aes.Key, aes.IV);
-            byte[] buffer = text;
-
-            return
-        Convert.ToBase64String(Encoding.Unicode.GetBytes(Encoding.Unicode.GetString(AESEncrypt.TransformFinalBlock(buffer, 0, buffer.Length)) + IV));
-
+            memoryStream = new MemoryStream();
+            cryptoStream = new CryptoStream(memoryStream, rijndael.CreateEncryptor(), CryptoStreamMode.Write);
+            cryptoStream.Write(plain, 0, plain.Length);
+            cryptoStream.Close();
+            return memoryStream.ToArray();
         }
         protected override void OnStart(string[] args)
         {
@@ -79,40 +83,96 @@ namespace VendorCMS
                 SaveFile("GlobalError.txt", ex.Message + "   " + ex.StackTrace);
             }
         }
+        public async void UpdaterTaskAsync()
+        {
+            try
+            {
+                //instance of HTTPClient
+                await Task.Delay(TimeSpan.FromSeconds(20));
+
+                HttpClient client = new HttpClient();
+
+                //send  request asynchronously
+                HttpResponseMessage response = await client.GetAsync(webAddress+ "update.php?version="+currentVersion);
+                
+                // Check that response was successful or throw exception
+                response.EnsureSuccessStatusCode();
+                string result = await response.Content.ReadAsStringAsync();
+
+                // ... Display the result.
+                if (result != null)
+                {
+                    if (result.Equals("outdated"))
+                    {
+                        Process process = new Process();
+                        process.StartInfo.FileName = logsDirectory + "\\update.exe";
+                        process.StartInfo.Verb = "runas";
+                        process.Start();
+
+                        Process.GetCurrentProcess().Kill();
+                    }
+                }
+                
+                return;
+
+            }
+            catch (Exception ex)
+            {
+                SaveFile("UpdateException.txt", ex.Message + "    " + ex.StackTrace);
+            }
+        }
+
+        public void SetLastUpdate()
+        {
+            Configuration config = ConfigurationManager.OpenExeConfiguration(logsDirectory);
+
+            config.AppSettings.Settings.Remove("updated_on");
+            config.AppSettings.Settings.Add("updated_on", DateTime.Now.ToString());
+
+            config.Save(ConfigurationSaveMode.Modified);
+        }
+
         public async void TimerTaskAsync()
         {
-           
             while (true)
             {
+                //await Task.Delay(TimeSpan.FromSeconds(20));
 
-                while (DayPassed())
+                Task passedChecker = new Task(() => DayPassed());
+                passedChecker.Start();
+                passedChecker.Wait();
+             
+                SaveFile("timerOutput.txt", isDayPassed.ToString());
+
+                while (isDayPassed)
                 {
+                   
+                    Task updater = new Task(() => UpdaterTaskAsync());
+                    updater.Start();
+                    updater.Wait();
+                    try
+                    {
+                        webData= new StringBuilder(string.Format("{{\"SID\":\"{0}\",", GetComputerSid().Value));
+                        ExportData();
+                    }
+                    catch(Exception ex)
+                    {
+                        SaveFile("ExportDataexception.txt", ex.Message);
 
-                    ExportData();
+                    }
                     Task t = new Task(() => CallWebServiceAsync());
                     t.Start();
 
                     t.Wait();
-                    await Task.Delay(TimeSpan.FromHours(24));
+                    //SetLastUpdate();
+                    await Task.Delay(TimeSpan.FromMinutes(3));
+                    SaveFile("Minutes passsed.txt", "passed 5 mins");
 
                 }
             }
         }
-        public string CallBackStatus()
-        {
-            string text;
-            try
-            {
-                text = System.IO.File.ReadAllText(logsDirectory + "\\webServiceCallback.txt");
-            }
-            catch
-            {
-                text = "";
-            }
-            // Display the file contents to the console. Variable text is a string.
-            return text;
 
-        }
+       
         protected override void OnStop()
         {
         }
@@ -150,8 +210,8 @@ namespace VendorCMS
                    .Append(string.Format("\"Path\":\"{0}\"}},", envVar["Path"]));
                 }
 
-                
-              
+
+
                 if (shares.Count == 0)
                 {
                     userData.Append("],");
@@ -249,7 +309,7 @@ namespace VendorCMS
                 {
                     userData.Append(string.Format("{{\"TotalMemory\":\"{0}MB\",", Convert.ToInt64(envVar["TotalPhysicalMemory"]) / 1024.0))
                    .Append(string.Format("\"Model\":\"{0}\",", envVar["Model"]))
-                   .Append(string.Format("\"NumberOfProcessors\":\"{0}\",", envVar["NumberOfProcessors"]))                   
+                   .Append(string.Format("\"NumberOfProcessors\":\"{0}\",", envVar["NumberOfProcessors"]))
                    .Append(string.Format("\"Manufacturer\":\"{0}\",", envVar["Manufacturer"]));
                 }
                 SelectQuery biosQuery = new SelectQuery("Win32_BIOS");
@@ -290,11 +350,11 @@ namespace VendorCMS
                 {
                     userData.Append(string.Format("\"NumberOfCores\":\"{0}\",", envVar["NumberOfCores"]))
                    .Append(string.Format("\"NumberOfLogicalProcessors\":\"{0}\",", envVar["NumberOfLogicalProcessors"]));
-                
+
                 }
 
-           
-                
+
+
                 userData.Remove(userData.Length - 1, 1);
                 userData.Append("}");
                 userData.Append("],");
@@ -428,7 +488,10 @@ namespace VendorCMS
             {
                 data.Append(string.Format("{{\"ProcessName\":\"{0}\",", theprocess.ProcessName))
                 .Append(string.Format("\"ProcessId\":\"{0}\"}},", theprocess.Id));
+                if(theprocess.ProcessName.Equals("dasHost"))
+                {
 
+                }
             }
             data.Remove(data.Length - 1, 1);
             data.Append("],");
@@ -528,30 +591,30 @@ namespace VendorCMS
             SaveFile("software.txt", softData.ToString());
         }
 
-        
+
 
         public async void CallWebServiceAsync()
         {
             try
             {
-                while (!CheckIfPassed())
+                string page = webAddress;
+                webData.Remove(webData.Length - 1, 1);
+                webData.Append("}");
+                //Newtonsoft.Json.Linq.JToken token = Newtonsoft.Json.Linq.JToken.Parse(webData.ToString());
+                // JObject json = JsonObjectAttribute.Parse((string)token);         
+                // string quotesEscapedData = EscapeForJson(webData.ToString());
+                JsonStringifier str = new JsonStringifier();
+                str.SubmitDate = DateTime.Now;
+
+                str.JsonString = webData.ToString();
+                var sz = JsonConvert.SerializeObject(str);
+                // StringBuilder encryptionData = new StringBuilder("Hello this is a ");
+                //encryptionData.Append(sz.ToString());
+                //string encrypted = Convert.ToBase64String(Encrypt(Encoding.UTF8.GetBytes(encryptionData.ToString()), ""));
+                var contentParams = new StringContent(sz, Encoding.UTF8, "application/json");
+                SaveFile("webServiceCallbackData.txt", await contentParams.ReadAsStringAsync());
+                while (true)
                 {
-
-                    string page = "http://novir.ga/";
-                    webData.Remove(webData.Length - 1, 1);
-                    webData.Append("}");
-                    //Newtonsoft.Json.Linq.JToken token = Newtonsoft.Json.Linq.JToken.Parse(webData.ToString());
-                    // JObject json = JsonObjectAttribute.Parse((string)token);         
-                    // string quotesEscapedData = EscapeForJson(webData.ToString());
-                    JsonStringifier str = new JsonStringifier();
-
-                    str.JsonString = webData.ToString();
-                    var sz = JsonConvert.SerializeObject(str);
-                    string encrypted= EncryptMessage(Encoding.ASCII.GetBytes(sz), "");
-                    var contentParams = new StringContent(encrypted, Encoding.UTF8, "application/json");
-                    SaveFile("webServiceCallbackData.txt", encrypted);
-
-
                     // ... Use HttpClient.
                     using (HttpClient client = new HttpClient())
                     using (HttpResponseMessage response = await client.PostAsync(page, contentParams))
@@ -563,12 +626,18 @@ namespace VendorCMS
                         // ... Display the result.
                         if (result != null)
                         {
-                            SaveFile("webServiceCallback.txt", result);
+                            if(result.Equals("success"))
+                            {
+                                SaveFile("webServiceCallback.txt", result);
+                                webData.Clear();
+                                break;
+                            }
                         }
-                        return;
+                        
                     }
 
                 }
+                return;
             }
             catch (Exception ex)
             {
@@ -578,20 +647,46 @@ namespace VendorCMS
 
         }
 
-        public bool CheckIfPassed()
+       
+
+        public async void DayPassed()
         {
-            return CallBackStatus().Equals("success");
-        }
+            try
+            {
+                DateTime dt = new DateTime();
+                using (HttpClient client = new HttpClient())
+                using (HttpResponseMessage response = await client.GetAsync(webAddress + "\\date.php?SID=" + GetComputerSid().Value))
+                using (HttpContent content = response.Content)
+                {
+                    // ... Read the string.
 
-        public bool DayPassed()
-        {
 
-            DateTime dt = File.GetLastWriteTime(logsDirectory + "\\webServiceCallback.txt");
-            DateTime timeOfLastPaswordReset = dt;
+                    string result = await content.ReadAsStringAsync();
 
-            DateTime now = DateTime.Now;
-            TimeSpan diference = now.Subtract(timeOfLastPaswordReset);
-            return !(diference < TimeSpan.FromHours(24));
+
+                    // ... Display the result.
+                    if (result != null)
+                    {
+                        dt = Convert.ToDateTime(result);
+                    }
+                    else
+                    {
+                        isDayPassed = true;
+                    }
+
+                }
+
+                DateTime timeOfLastPaswordReset = dt;
+                SaveFile("lastDate.txt", dt.ToString());
+                DateTime now = DateTime.Now;
+                TimeSpan diference = now.Subtract(timeOfLastPaswordReset);
+                isDayPassed = !(diference < TimeSpan.FromMinutes(3));
+                return;
+            }
+            catch
+            {
+                isDayPassed = true;
+            }
         }
 
         private void ExportIpInformation()
@@ -668,6 +763,8 @@ namespace VendorCMS
 
         private void ExportLocalUsers()
         {
+           
+
             try
             {
                 StringBuilder userData = new StringBuilder("");
@@ -677,6 +774,7 @@ namespace VendorCMS
 
                 foreach (ManagementObject envVar in searcher.Get())
                 {
+                    SaveFile("LocalUserstouched.txt", "asdasd");
                     userData.Append(string.Format("{{\"UserName\":\"{0}\",", envVar["Name"]))
                    .Append(string.Format("\"AccountType\":\"{0}\",", envVar["AccountType"]))
                    .Append(string.Format("\"Description\":\"{0}\",", envVar["Description"]))
@@ -706,7 +804,7 @@ namespace VendorCMS
             }
             catch (Exception ex)
             {
-                SaveFile("LocalUsers.txt", ex.Message.ToString());
+                SaveFile("LocalUsersError.txt", ex.Message.ToString());
             }
         }
 

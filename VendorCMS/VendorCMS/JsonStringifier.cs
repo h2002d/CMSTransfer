@@ -9,5 +9,6 @@ namespace VendorCMS
     class JsonStringifier
     {
         public string JsonString { get; set; }
+        public DateTime SubmitDate { get; set; }
     }
 }

@@ -1,3 +1,6 @@
-Заданный вектор инициализации (IV) не соответствует размеру блоков для этого алгоритма.         в System.Security.Cryptography.SymmetricAlgorithm.set_IV(Byte[] value)
-   в VendorCMS.Service1.EncryptMessage(Byte[] text, String key) в D:\Projects\CMSTransfer\VendorCMS\VendorCMS\Service1.cs:строка 58
-   в VendorCMS.Service1.<CallWebServiceAsync>d__28.MoveNext() в D:\Projects\CMSTransfer\VendorCMS\VendorCMS\Service1.cs:строка 550
+Произошла ошибка при отправке запроса.   System.Net.WebException: Невозможно разрешить удаленное имя: 'www.novir.ga'
+   в System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   в System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)      в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в VendorCMS.Service1.<CallWebServiceAsync>d__33.MoveNext() в D:\Projects\CMSTransfer\VendorCMS\VendorCMS\Service1.cs:строка 620
